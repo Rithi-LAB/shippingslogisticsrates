@@ -1,0 +1,4 @@
+weight=float(input("enter the weight of the package in kilograms:"))
+rate=float(input("enter the rate for one kilogram:"))
+shipping_rate= weight*rate
+print(f "shipping cost: {shipping_rate} usd")
